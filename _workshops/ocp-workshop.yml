@@ -11,7 +11,7 @@ vars:
   USE_MAVEN: true
   METRICS_ENABLED: true
   LOGGING_ENABLED: true
-  NFS_ENABLED: true
+  NFS_ENABLED: false
   MASTERS: "1"
   INFRA: "3"
   NODES: "3"
