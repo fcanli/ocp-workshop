@@ -1,19 +1,19 @@
 ---
 id: ocp-workshop
 name: OCP
-revision: ocp_3_5
+revision: ocp_3_6
 
 content:
-  url: https://raw.githubusercontent.com/serhat-dirik/ocp-workshop/master
+  url: https://raw.githubusercontent.com/okansahiner/ocp-workshop/master
 
 vars:
-  ENVIRONMENT: "Hyperidea"
+  ENVIRONMENT: "LERA"
   USE_MAVEN: true
   METRICS_ENABLED: true
   LOGGING_ENABLED: true
   NFS_ENABLED: true
   MASTERS: "1"
-  INFRA: "1"
+  INFRA: "3"
   NODES: "4"
   NUM_USERS: "15"
   DOCS_URL: "docs.openshift.com/container-platform"
@@ -21,7 +21,7 @@ vars:
   USER_SUFFIX: "-XX"
   GOGS_USER: "userXX"
   GOGS_PASSWORD: "RedHat-1"
-  GOGS_URL: "http://gogs-tk.app.hyperidea.com"
+  GOGS_URL: "http://git.cloudapps.lera.com.tr"
   JAVA_BUILDER_PROPER: "JBoss EAP 7"
   JAVA_BUILDER_STRING: "jboss-eap70-openshift:1.4"
   USER_NAME: "userXX"
@@ -30,16 +30,16 @@ vars:
   PARKSMAP_VERSION: "1.2.0"
   PARKSMAP_PY: false
   NATIONALPARKS_VERSION: "1.2.0"
-  NATIONALPARKS_GIT_URL: "http://gogs-tk.app.hyperidea.com/serhat/nationalparks"
+  NATIONALPARKS_GIT_URL: "https://github.com/okansahiner/nationalparks.git"
   MLBPARKS_VERSION: "master"
   EXPLORE_PROJECT_NAME: "explore"
   DISABLE_NATIONALPARKS_DEPLOYMENT_PIPELINE: false
   MW_NAME: "eap"
-  DOWNLOAD_CLIENT_WINDOWS: "http://nexus-tk.app.hyperidea.com/content/sites/binary/oc-client/oc-3.5.5.31-windows.zip"
-  DOWNLOAD_CLIENT_MAC: "http://nexus-tk.app.hyperidea.com/content/sites/binary/oc-client/oc-3.5.5.31-macosx.tar.gz"
-  DOWNLOAD_CLIENT_LIN64: "http://nexus-tk.app.hyperidea.com/content/sites/binary/oc-client/oc-3.5.5.31-linux.tar.gz"
-  CONSOLE_ADDRESS: "https://master.hyperidea.com:8443"
-  ROUTER_ADDRESS: "app.hyperidea.com"
+  DOWNLOAD_CLIENT_WINDOWS: "https://github.com/openshift/origin/releases/download/v3.6.0/openshift-origin-client-tools-v3.6.0-c4dd4cf-windows.zip"
+  DOWNLOAD_CLIENT_MAC: "https://github.com/openshift/origin/releases/download/v3.6.0/openshift-origin-client-tools-v3.6.0-c4dd4cf-mac.zip"
+  DOWNLOAD_CLIENT_LIN64: "https://github.com/openshift/origin/releases/download/v3.6.0/openshift-origin-client-tools-v3.6.0-c4dd4cf-linux-64bit.tar.gz"
+  CONSOLE_ADDRESS: "https://workshop.lera.com.tr:8443"
+  ROUTER_ADDRESS: "cloudapps.lera.com.tr"
 
 modules:
   activate:
