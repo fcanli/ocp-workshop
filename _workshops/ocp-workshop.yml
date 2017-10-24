@@ -7,14 +7,14 @@ content:
   url: https://raw.githubusercontent.com/okansahiner/ocp-workshop/master
 
 vars:
-  ENVIRONMENT: "LERA"
+  ENVIRONMENT: "LinuxEra Cloud"
   USE_MAVEN: true
   METRICS_ENABLED: true
   LOGGING_ENABLED: true
   NFS_ENABLED: true
   MASTERS: "1"
   INFRA: "3"
-  NODES: "4"
+  NODES: "3"
   NUM_USERS: "15"
   DOCS_URL: "docs.openshift.com/container-platform"
   SUFFIX: "XX"
