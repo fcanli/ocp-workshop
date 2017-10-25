@@ -49,7 +49,6 @@ modules:
   - docker
   - scaling
   - routes
-  - logging
   - permissions
   - remote-ops
   - java
