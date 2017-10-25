@@ -82,8 +82,7 @@ Are you ready for the magic command?  Here it is:
 {% if USE_MAVEN %}
 [source]
 ----
-oc new-app --template=mlbparks --name=mlbparks -p MAVEN_MIRROR_URL=http://nexus.cloudapps.lera.com.tr/repository/maven-central/
-----
+oc new-app --template=mlbparks --name=mlbparks -p MAVEN_MIRROR_URL=http://nexus.cloudapps.lera.com.tr/repository/maven-public/
 
 {% else %}
 [source]
