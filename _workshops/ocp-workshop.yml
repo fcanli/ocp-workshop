@@ -4,10 +4,10 @@ name: OCP
 revision: ocp_3_6
 
 content:
-  url: https://raw.githubusercontent.com/okansahiner/ocp-workshop/master
+  url: https://raw.githubusercontent.com/fcanli/ocp-workshop/master
 
 vars:
-  ENVIRONMENT: "LinuxEra Cloud"
+  ENVIRONMENT: "Ocp demo Workshop"
   USE_MAVEN: true
   METRICS_ENABLED: true
   LOGGING_ENABLED: true
@@ -21,7 +21,7 @@ vars:
   USER_SUFFIX: "-XX"
   GOGS_USER: "userXX"
   GOGS_PASSWORD: "RedHat-1"
-  GOGS_URL: "http://git.cloudapps.lera.com.tr"
+  GOGS_URL: "http://git.ocpapps.lp.local"
   JAVA_BUILDER_PROPER: "JBoss EAP 7"
   JAVA_BUILDER_STRING: "jboss-eap70-openshift:1.4"
   USER_NAME: "userXX"
@@ -30,16 +30,16 @@ vars:
   PARKSMAP_VERSION: "1.2.0"
   PARKSMAP_PY: false
   NATIONALPARKS_VERSION: "1.2.0"
-  NATIONALPARKS_GIT_URL: "https://github.com/okansahiner/nationalparks.git"
+  NATIONALPARKS_GIT_URL: "https://github.com/fcanli/nationalparks.git"
   MLBPARKS_VERSION: "master"
   EXPLORE_PROJECT_NAME: "explore"
   DISABLE_NATIONALPARKS_DEPLOYMENT_PIPELINE: false
   MW_NAME: "eap"
-  DOWNLOAD_CLIENT_WINDOWS: "https://github.com/openshift/origin/releases/download/v3.6.0/openshift-origin-client-tools-v3.6.0-c4dd4cf-windows.zip"
-  DOWNLOAD_CLIENT_MAC: "https://github.com/openshift/origin/releases/download/v3.6.0/openshift-origin-client-tools-v3.6.0-c4dd4cf-mac.zip"
-  DOWNLOAD_CLIENT_LIN64: "https://github.com/openshift/origin/releases/download/v3.6.0/openshift-origin-client-tools-v3.6.0-c4dd4cf-linux-64bit.tar.gz"
-  CONSOLE_ADDRESS: "https://workshop.lera.com.tr:8443"
-  ROUTER_ADDRESS: "cloudapps.lera.com.tr"
+  DOWNLOAD_CLIENT_WINDOWS: "https://github.com/openshift/origin/releases/download/v3.11.0/openshift-origin-client-tools-v3.11.0-0cbc58b-windows.zip"
+  DOWNLOAD_CLIENT_MAC: "https://github.com/openshift/origin/releases/download/v3.11.0/openshift-origin-client-tools-v3.11.0-0cbc58b-mac.zip"
+  DOWNLOAD_CLIENT_LIN64: "https://github.com/openshift/origin/releases/download/v3.11.0/openshift-origin-client-tools-v3.11.0-0cbc58b-linux-64bit.tar.gz"
+  CONSOLE_ADDRESS: "https://ocpdemo.lp.local:443"
+  ROUTER_ADDRESS: "ocpapps.lp.local"
 
 modules:
   activate:
